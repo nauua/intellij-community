@@ -40,7 +40,7 @@ public abstract class CoverageEnabledConfiguration implements JDOMExternalizable
   private String myRunnerId;
   private CoverageRunner myCoverageRunner;
   private boolean myTrackPerTestCoverage = true;
-  private boolean mySampling = true;
+  private boolean mySampling = false;
   private boolean myTrackTestFolders = false;
 
   @NonNls protected String myCoverageFilePath;
